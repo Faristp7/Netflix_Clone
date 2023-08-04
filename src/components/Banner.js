@@ -3,7 +3,7 @@ import './Banner.css'
 
 export default function Banner() {
   return (
-    <div className="Banner">
+    <div className="Banner text-white">
       <div>
         <h1>Movie Name</h1>
         <div>
@@ -16,6 +16,8 @@ export default function Banner() {
           typeface
         </h1>
       </div>
+      <div className="fade_bottom"></div>
     </div>
   );
 }
+    

@@ -5,7 +5,7 @@ export default function RowPost() {
     <div>
         <h2>Title</h2>
         <div>
-            <img src="/img/cardImage.jpg" alt="card" />
+            <img src="/img/cardImage.jpg" alt="card" className='w-52'/>
         </div>
     </div>
   )
