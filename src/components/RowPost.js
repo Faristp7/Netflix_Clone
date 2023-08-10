@@ -40,12 +40,13 @@ export default function RowPost(props) {
       <div className="flex p-5 overflow-x-scroll overflow-y-auto no-scrollbar">
         {movies.map((obj) => (
           <img
+          key={obj.id}
             onClick={() => handleMovie(obj.id)}
             src={`${imageUrl + obj.backdrop_path}`}
             alt="card"
-            className={`cursor-pointer mr-3 ${
-              props.isSmall ? `w-72` : `w-96`
-            }  `}
+            className={`cursor-pointer mr-3 rounded-md ${
+              props.isSmall ? `w-72 hoverWidth` : `w-80 hoverWidth`
+            }`}
           />
         ))}
       </div>
