@@ -1,6 +1,6 @@
 .Banner {
   background-size: cover;
-  height: 450px;
+  height: 500px;
   position: relative;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .fade_bottom {
-  height: 8rem;
+  height: 13rem;
   position: absolute;
   bottom: 0;
   left: 0;
